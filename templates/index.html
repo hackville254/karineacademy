@@ -2,52 +2,63 @@
 {% load static %}
 {% block content %}
 <!-- HEADER -->
-<div class='w-full h-screen flex mt-14'>
-    <div class="w-1/2 ml-8">
-        <div>
-            <h1>L'école 2.0 qui vous <br> accompagne vers la <br> réussite</h1>
+<div class='w-full h-screen flex pt-14 mb-14 animated-gradient'>
+    <div class="w-1/2 ml-8 mt-14 text-white">
+        <div class="ml-6">
+            <h1 class="text-5xl font-bold tracking-wider leading-[50px] ">L'école 2.0 qui vous <br> accompagne vers la <br> réussite.</h1>
         </div>
-        <div>
-            <p>Mindeo est l'école en ligne qui vous permet d’acquérir les compétences nécessaires dans les domaines du
-                business, de l’investissement et du développement personnel.</p>
+        <div class="mt-12 ml-6">
+            <p class="text-lg leading-[25px] tracking-wide">
+                Mindeo est l'école en ligne qui vous permet d’acquérir <br>les compétences nécessaires dans les domaines du
+                business, <br> de l’investissement et du développement personnel.
+            </p>
         </div>
-        <div class="flex justify-start items-center">
-            <button class="bg-[#3898ec] py-2 px-4 rounded-full text-white mr-4">
+        <div class="flex justify-start items-center ml-6 mt-12">
+            <button class="bg-[#3898ec] shadow py-2 px-4 rounded-full text-white mr-4 hover:shadow-white hover:shadow-md hover:bg-transparent">
                 Explorer les formations
             </button>
-            <div>
-                <h3>Voir la vidéo
-                </h3>
+            <div class="flex items-center justify-center ml-5 cursor-pointer ">
+                <h3>Voir la vidéo</h3>
+                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"></path></svg>
             </div>
         </div>
     </div>
     <!-- video -->
-    <div class="w-1/2">
-        <div class="bg-black h-1/2 "></div>
+    <div class="w-1/2 mt-14 rounded-xl">
+        <script src="https://fast.wistia.com/embed/medias/8cz32zfmc4.jsonp" async></script>
+        <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+        <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+            <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                <div class="wistia_embed wistia_async_8cz32zfmc4 seo=true videoFoam=true" style="height:100%;position:relative;width:100%">
+                    <div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;" >
+                        <img src="https://fast.wistia.com/embed/medias/8cz32zfmc4/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" />
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
 <!-- MISSION -->
-<div class='h-screen flex ml-28 max-w-4xl justify-center -mt-24'>
+<div class='h-screen flex ml-28 max-w-4xl justify-center mt-36'>
     <!-- imge -->
     <div class="w-full">
-        <img src="https://picsum.photos/seed/picsum/650/346" alt="" class="">
+        <img src="https://picsum.photos/seed/picsum/700/400" alt="" class="">
     </div>
-    <div class="w-[500px] ml-[27px] mt-[27px]">
+    <div class="w-[600px] ml-[50px] mt-[27px] ">
         <div>
-            <h1 class="text-2xl">Notre <span class="text-blue">mission</span></h1>
+            <h1 class="text-5xl leading-[50px] font-bold">Notre <span class="text-blue-500">mission</span></h1>
         </div>
         <div>
-            <p class="leading-relaxed">Mindeo est l'école en ligne qui vous permet d’acquérir les compétences
-                nécessaires dans les domaines du
-                business, de l’investissement et du développement personnel.</p>
+            <p class="text-lg leading-[25px] font-light mt-5">Osez devenir une meilleure version de vous-même avec notre école en ligne.
+                Des dizaines de milliers de personnes ont déjà suivi nos programmes en ligne dans les domaines du business, de l’investissement et du développement personnel.</p>
         </div>
 
     </div>
 
 </div>
 <!-- OBJECTIF -->
-<div class="h-screen flex mx-auto max-w-5xl justify-center -mt-24">
+<div class="h-screen flex mx-auto max-w-5xl justify-center -mt-32 overflow-hidden">
     <div class="w-1/2">
         <h1>
             Atteignez votre <br> prochain niveau de <br> succès
@@ -159,7 +170,7 @@
     </div>
 </div>
 <!-- ACCESIBILITER ET EDUCATIF -->
-<div>
+<div class="mt-16">
     <div class="grid grid-cols-3 gap-2">
         <div>
             <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M0.689453 6.99659C3.78027 4.49704 7.71526 3 11.9999 3C16.2845 3 20.2195 4.49704 23.3104 6.99659L22.0536 8.55252C19.3062 6.3307 15.8085 5 11.9999 5C8.19133 5 4.69356 6.3307 1.94617 8.55252L0.689453 6.99659ZM3.83124 10.8864C6.0635 9.08119 8.90544 8 11.9999 8C15.0944 8 17.9363 9.08119 20.1686 10.8864L18.9118 12.4424C17.023 10.9149 14.6183 10 11.9999 10C9.38151 10 6.97679 10.9149 5.08796 12.4424L3.83124 10.8864ZM6.97304 14.7763C8.34673 13.6653 10.0956 13 11.9999 13C13.9042 13 15.6531 13.6653 17.0268 14.7763L15.7701 16.3322C14.7398 15.499 13.4281 15 11.9999 15C10.5717 15 9.26002 15.499 8.22975 16.3322L6.97304 14.7763ZM10.1148 18.6661C10.63 18.2495 11.2858 18 11.9999 18C12.714 18 13.3698 18.2495 13.885 18.6661L11.9999 21L10.1148 18.6661Z"></path></svg>
@@ -189,4 +200,77 @@
         Nos Formations
     </button>
 </div>
+<!-- RENCONTRER NOS EXPERTS -->
+<div class="mt-16 flex flex-col items-center justify-center">
+    <h6>
+        Ils s’engagent à vous accompagner
+    </h6>
+    <h1>
+        Rencontrez nos <span class="text-blue-500">experts</span>
+        francophones
+    </h1>
+    <div class="grid grid-cols-3">
+        <div>
+            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M3 3.9934C3 3.44476 3.44495 3 3.9934 3H20.0066C20.5552 3 21 3.44495 21 3.9934V20.0066C21 20.5552 20.5551 21 20.0066 21H3.9934C3.44476 21 3 20.5551 3 20.0066V3.9934ZM5 5V19H19V5H5ZM10.6219 8.41459L15.5008 11.6672C15.6846 11.7897 15.7343 12.0381 15.6117 12.2219C15.5824 12.2658 15.5447 12.3035 15.5008 12.3328L10.6219 15.5854C10.4381 15.708 10.1897 15.6583 10.0672 15.4745C10.0234 15.4088 10 15.3316 10 15.2526V8.74741C10 8.52649 10.1791 8.34741 10.4 8.34741C10.479 8.34741 10.5562 8.37078 10.6219 8.41459Z"></path></svg>
+            <h2>Contenu exclusif</h2>
+        </div>
+
+        <div>
+            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M3 3.9934C3 3.44476 3.44495 3 3.9934 3H20.0066C20.5552 3 21 3.44495 21 3.9934V20.0066C21 20.5552 20.5551 21 20.0066 21H3.9934C3.44476 21 3 20.5551 3 20.0066V3.9934ZM5 5V19H19V5H5ZM10.6219 8.41459L15.5008 11.6672C15.6846 11.7897 15.7343 12.0381 15.6117 12.2219C15.5824 12.2658 15.5447 12.3035 15.5008 12.3328L10.6219 15.5854C10.4381 15.708 10.1897 15.6583 10.0672 15.4745C10.0234 15.4088 10 15.3316 10 15.2526V8.74741C10 8.52649 10.1791 8.34741 10.4 8.34741C10.479 8.34741 10.5562 8.37078 10.6219 8.41459Z"></path></svg>
+            <h2>Contenu exclusif</h2>
+        </div>
+
+        <div>
+            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M3 3.9934C3 3.44476 3.44495 3 3.9934 3H20.0066C20.5552 3 21 3.44495 21 3.9934V20.0066C21 20.5552 20.5551 21 20.0066 21H3.9934C3.44476 21 3 20.5551 3 20.0066V3.9934ZM5 5V19H19V5H5ZM10.6219 8.41459L15.5008 11.6672C15.6846 11.7897 15.7343 12.0381 15.6117 12.2219C15.5824 12.2658 15.5447 12.3035 15.5008 12.3328L10.6219 15.5854C10.4381 15.708 10.1897 15.6583 10.0672 15.4745C10.0234 15.4088 10 15.3316 10 15.2526V8.74741C10 8.52649 10.1791 8.34741 10.4 8.34741C10.479 8.34741 10.5562 8.37078 10.6219 8.41459Z"></path></svg>
+            <h2>Contenu exclusif</h2>
+        </div>
+    </div>
+</div>
+<!-- TOUJOUR HESITANT? -->
+<div>
+    <!-- TITRE ET EXPLICATION -->
+    <div>
+        <h3>
+
+        </h3>
+        <h1>
+            Découvrez nos contenus <span class="text-blue-800">gratuits</span>
+
+        </h1>
+        <p>
+            Nos mini formations gratuites vous aideront à développer des fondations solides dans les domaines du développement personnel, du business en ligne, de l’entrepreneuriat et de l’investissement.
+        </p>
+    </div>
+    <!-- CARDS -->
+    <div class="">
+        <div class="w-[306px] h-[445px] bg-slate-200 px-4">
+            <img src="{% static 'imageformation1.jpeg' %}" alt="" class="w-[270px] h-[154px] rounded-xl">
+
+            <div class="w-[270px] text-justify">
+                <h1>Le business de l'ia</h1>
+                <p>
+                    Découvrez les étapes pour lancer votre propre business (freelance agence ou start-up) grâce au pouvoir de l'intelligence artificielle.
+                </p>
+                <button>
+                    Voir la formation gratuites
+                </button>
+            </div>
+        </div>
+
+        <div class="w-[306px] h-[445px] bg-slate-200 px-4">
+            <img src="{% static 'imageformation1.jpeg' %}" alt="" class="w-[270px] h-[154px] rounded-xl">
+
+            <div class="w-[270px] text-justify">
+                <h1>Le business de l'ia</h1>
+                <p>
+                    Découvrez les étapes pour lancer votre propre business (freelance agence ou start-up) grâce au pouvoir de l'intelligence artificielle.
+                </p>
+                <button>
+                    Voir la formation gratuites
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
 {% endblock content %}

@@ -42,6 +42,9 @@ module.exports = {
         // '../../**/*.py'
     ],
     theme: {
+        fontFamily: {
+            outfit: ['Outfit', 'sans-serif'],
+        },
         extend: {},
     },
     plugins: [
